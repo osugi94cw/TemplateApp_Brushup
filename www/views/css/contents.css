@@ -1,0 +1,28 @@
+
+    /* ons-pageのCSS変更 */
+    .page--con{
+        width: 100%;
+        height: 100%;
+        background-color: #f8f8f8;
+    }
+    
+    
+    
+    /* コンテンツ領域 */
+    section#contentsArea{
+        width: 100%;
+        height: 90%;
+        background-color: white;
+    }
+    div.blank{
+        height: 22%;
+        background-color: white;
+    }
+    
+    /* コンテンツ */
+    .contents{
+        height: 50%;
+        text-align: center;
+        background-color: #f8f8f8;
+        line-height: 11;
+    }

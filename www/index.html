@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/onsenui/js/onsenui.min.js"></script>
+    <script src="lib/onsenui/js/angular-onsenui.min.js"></script>
+
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="lib/onsenui/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsenui/css/onsen-css-components.css">
+    
+    <script src="app.module.js"></script>
+    
+    <script src="controllers/menu.controller.js"></script>
+    <script src="controllers/library.controller.js"></script>
+    <script src="controllers/movie.contents.controller.js"></script>
+    
+    <script src="services/transition.service.js"></script>
+    <script src="services/connection.service.js"></script>
+    <script src="services/get.library.data.service.js"></script>
+    
+    <script src="directives/repeatfinished.directive.js"></script>
+    
+    <script src="services/ncmb.initial.setting.js"></script>
+    
+    
+    <link rel="stylesheet" href="views/css/common.css">
+    <link rel="stylesheet" href="views/css/menu.css">
+    <link rel="stylesheet" href="views/css/library.css">
+    <link rel="stylesheet" href="views/css/contents.css">
+
+    <script>
+    </script>
+</head>
+<body>
+    <ons-page>
+        <ons-navigator
+          var="navi"
+          page="views/html/menu.html">
+        </ons-navigator>
+    </ons-page>
+
+</body>
+</html>
